@@ -3,9 +3,9 @@
 
 ## Vorlesungsfolien
 
-* [Einführung](01a Einführung.pdf)
-* [History and rendering approaches](01b History and Rendering Approaches.pdf)
-* [HTML](01c HTML.pdf)
+* [Einführung](01a%20Einführung.pdf)
+* [History and rendering approaches](01b%20History%20and%20Rendering%20Approaches.pdf)
+* [HTML](01c%20HTML.pdf)
 
 
 ## IDE, JDK, Git

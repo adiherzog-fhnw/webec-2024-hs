@@ -27,7 +27,7 @@ Die notwendigen Dateien finden Sie auch [hier](exercise-letter).
 
 1) Erstellen Sie eine HTML-Datei und fügen Sie den Text aus `letter-text.txt` ein.
 2) Erstellen Sie das HTML Grundgerüst und binden Sie das CSS Stylesheet `style.css` ein (Sie müssen selber für diese Übung kein CSS schreiben). Sie können die im Stylesheet definierte Klasse `sender-column` verwenden, um den Absender rechts auszurichten.
-3) Strukturieren Sie den Brief mit HTML gemäss [Vorlage](exercise-letter\letter.png). 
+3) Strukturieren Sie den Brief mit HTML gemäss [Vorlage](exercise-letter/letter.png). 
 4) Verwenden Sie auch semantische HTML Element, um Screenreader zu unterstützen (z.B. das `<time>` Element).
 5) Validieren Sie Ihr HTML mit dem _Nu HTML Checker_: https://validator.w3.org/nu/.
 

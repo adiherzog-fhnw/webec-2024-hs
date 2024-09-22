@@ -17,7 +17,7 @@
 
 ### 1. Etwas CSS für den Letter (Vorlesung)
 
-Das Dokument `letter.html` enthält bereits CSS, direkt in einem `<style>`-Element. 
+Das Dokument [letter.html](letter-styling/letter.html) enthält bereits CSS, direkt in einem `<style>`-Element. 
 Verschiebe diese CSS-Regeln in eine separate Datei `letter.css` und verlinke diese im HTML.
 
 Erweitere das Stylesheet um einige Regeln:
@@ -52,12 +52,14 @@ Welche Textfarbe haben die fünf Abschnitte in folgendem HTML-Dokument?
 
 ### 3. Letter fertig stylen (Vorlesung)
 
-Erweitere das Stylesheet für den Letter erneut, sodass folgende Darstellung (siehe [Bild](letter-styling/letter.png)) erreicht wird. Für den ersten Punkt musst du auch das HTML etwas anpassen.
+Erweitere das Stylesheet für den Letter erneut, sodass folgende Darstellung erreicht wird. Für den ersten Punkt musst du auch das HTML etwas anpassen.
 
 * Adressat links-bündig, aber eingerückt
 * Mehr Abstand zwischen Abschnitten (oberhalb von Überschriften)
 * Platz für Unterschrift
 * Blocksatz
+
+<img src="letter-styling/letter.png" alt="letter" width="800">
 
 
 ### 4. News-Page layouten

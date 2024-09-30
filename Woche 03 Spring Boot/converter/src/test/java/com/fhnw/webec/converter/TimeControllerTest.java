@@ -16,7 +16,7 @@ public class TimeControllerTest {
         var timeProvider = new TestTimeProvider();
         var formatter = DateTimeFormatter.ofPattern("HH:mm");
         var controller = new TimeController(timeProvider, formatter);
-        ConcurrentModel model = new ConcurrentModel();
+        var model = new ConcurrentModel();
 
         // act
         var view = controller.time(model);

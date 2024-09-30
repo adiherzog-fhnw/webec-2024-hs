@@ -7,7 +7,7 @@ import java.time.LocalTime;
 @Component
 public class TimeProvider {
 
-    private int count;
+    private int count; // just to show that it's really a singleton
 
     public LocalTime getTime() {
         count++;

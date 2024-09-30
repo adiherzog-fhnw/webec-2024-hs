@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<title>Time</title>
+<h1>Current Time with Pebble</h1>
+<p>Mit TimeProvider</p>
+<p>
+    Time: {{ time }}
+</p>
+<p>
+    Count: {{ count }}
+</p>

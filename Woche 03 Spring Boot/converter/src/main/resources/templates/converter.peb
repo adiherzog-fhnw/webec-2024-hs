@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Length converter</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Length converter</h1>
+    <h2>Input</h2>
+    <form method="get" action="convert">
+        <p>
+            <input type="text" name="inches" value="{{ inches }}"> inches
+        </p>
+        <p>
+            <input type="submit" value="Convert">
+        </p>
+    </form>
+
+    {% if cm %}
+    <h2>Result</h2>
+    <p>{{ cm }} cm, {{ mm }} mm</p>
+    {% endif %}
+</body>
+</html>

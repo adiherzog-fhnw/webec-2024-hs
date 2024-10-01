@@ -18,5 +18,9 @@ public class ConverterControllerTest {
         assertEquals("converter", view);
         assertEquals(33, model.getAttribute("cm"));
         assertEquals(3, model.getAttribute("mm"));
+
+        var inputOnModel = (ImperialLength) model.getAttribute("input");
+        assertEquals(1d, inputOnModel.getFeet());
+        assertEquals(1.1d, inputOnModel.getInches());
     }
 }

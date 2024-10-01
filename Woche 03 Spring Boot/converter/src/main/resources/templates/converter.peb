@@ -12,7 +12,7 @@
         <form method="get" action="convert">
             <p>
                 <label for="feet">Feet</label>
-                <input type="number" name="feet" value="{{ input.getFeet() }}" required step="any">
+                <input type="number" name="feet" value="{{ input.getFeet() | numberformat("#") }}" required step="1">
             </p>
             <p>
                 <label for="inches">Inches</label>

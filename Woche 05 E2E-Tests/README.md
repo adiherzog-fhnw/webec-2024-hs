@@ -1,4 +1,4 @@
-# Woche 5: E2E-Testing & Missing Pieces
+# Woche 5: E2E-Tests, Validierung mit Spring
 
 ## Vorlesungsfolien
 

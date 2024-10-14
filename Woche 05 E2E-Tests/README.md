@@ -41,7 +41,7 @@ Achtung: Da wir den Maven Wrapper verwenden, heissen die Befehle leicht anders (
 
 Erstelle eine Page-Object-Klasse für die Contacts-Seite, mit Attributen für die Kontakte-Links und die Kontakt-Details.
 
-Refactore anschliessend den Test `ContactsPageIT`, sodass solche Page-Objects verwendet werden.
+Refactore anschliessend den E2E-Test, sodass solche Page-Objects verwendet werden.
 
 
 ## Übung Suchfeld und Kontakte filtern

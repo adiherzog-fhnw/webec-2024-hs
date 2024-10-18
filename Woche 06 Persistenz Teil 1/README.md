@@ -2,7 +2,7 @@
 
 ## Vorlesungsfolien
 
-[Persistenz Teil 1](06%20Persistenz%20Teil%201.pptx)
+[Persistenz Teil 1](06%20Persistenz%20Teil%201.pdf)
 
 
 ## Übungen

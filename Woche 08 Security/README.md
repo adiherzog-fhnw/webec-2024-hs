@@ -12,10 +12,14 @@ Die Vorlage von dieser Woche, «wishlist-security» entspricht der Lösung von l
 
 ### 1. Hello, Spring Security! (Vorlesung)
 
-Lade das neue Projekt «wishlist-security» in deine IDE. Füge Spring Security als Dependency hinzu und prüfe, dass die App jetzt geschützt ist. Beachte das Passwort, das auf der Konsole ausgegeben wird.
+Lade das neue Projekt «wishlist-security» in deine IDE. Füge Spring Security als Dependency hinzu und prüfe, dass die App jetzt geschützt ist. Beachte das Passwort, das auf der Konsole ausgegeben wird (Benutzername: «user»).
 
 Konfiguriere Spring Security mittels einer Klasse `WebSecurityConfig` so, dass die Startseite und die Kategorien-Seite öffentlich zugänglich sind, aber die Seiten der einzelnen Wunschlisten nur authentifizierten Usern angezeigt werden. Denk auch an die statischen Inhalte (CSS, Bilder).
 
+Hinweise:
+
+* Das Standard-Login-Formular von Spring erhält man mit der Konfiguration `.formLogin(withDefaults())`
+* Das Absenden von POST Requests führt im Moment zu `403 Forbidden`, da wir kein CSRF-Token mitschicken (können wir temporär mit `.csrf(csrf -> csrf.disable())` beheben, müssen wir aber später richtig machen)
 
 
 ### 2. Templates & Security (zum Teil Vorlesung)

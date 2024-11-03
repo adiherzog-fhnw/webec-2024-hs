@@ -15,7 +15,7 @@ public class WishService {
     }
 
 	public long countWishesByCategory(Category category) {
-		return wishRepository.countWishesForCategory(category.getId());
+		return wishRepository.countByCategoriesContaining(category);
 	}
 
 }

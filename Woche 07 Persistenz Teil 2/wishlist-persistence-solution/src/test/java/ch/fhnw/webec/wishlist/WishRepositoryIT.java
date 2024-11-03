@@ -37,7 +37,7 @@ class WishRepositoryIT {
 		wl.getEntries().add(new Wish("camera", "", 2, List.of(c)));
 		wishlistRepository.save(wl);
 
-		var count = wishRepository.countWishesForCategory(c.getId());
+		var count = wishRepository.countByCategoriesContaining(c);
 
 		assertEquals(2, count);
 	}

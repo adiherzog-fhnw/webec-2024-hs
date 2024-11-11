@@ -62,7 +62,8 @@ footer {
 
 /* Headings and paragraphs */
 h1 {
-	font-size: 400%;
+	/* font-size: clamp(300%, 12vw, 400%); */
+	font-size: min(12vw, 400%);
 	font-weight: 200;
 	color: crimson;
 }

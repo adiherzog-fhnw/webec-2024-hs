@@ -4,15 +4,22 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<style>
+		html {
+			font-family: Helvetica, sans-serif;
+		}
+
 		main {
 			display: flex;
-			flex-wrap: wrap; /* nowrap by default */
-			justify-content: flex-start;
+			flex-wrap: wrap;
 		}
+
 		main > div {
 			box-sizing: border-box;
-			border: 2px blue dotted;
-			flex: 33.33% 1 1;
+			border: 3px blue solid;
+			padding: 5px;
+			margin-bottom: 5px;
+
+			flex: 33.33% 1 0;
 			min-width: 150px;
 			max-width: 33.33%;
 		}

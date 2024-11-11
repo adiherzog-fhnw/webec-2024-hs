@@ -1,0 +1,36 @@
+<html>
+<head lang="en">
+	<title>CSS Responsive Flex</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		main {
+			display: flex;
+			flex-wrap: wrap; /* nowrap by default */
+			justify-content: flex-start;
+		}
+		main > div {
+			box-sizing: border-box;
+			border: 2px blue dotted;
+			flex: 33.33% 1 1;
+			min-width: 150px;
+			max-width: 33.33%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>CSS Responsive Flex</h1>
+	</header>
+	<main>
+		<div>Box 1</div>
+		<div>Box 2</div>
+		<div>Box 3</div>
+		<div>Box 4</div>
+		<div>Box 5</div>
+		<div>Box 6</div>
+		<div>Box 7</div>
+		<div>Box 8</div>
+	</main>
+</body>
+</html>
